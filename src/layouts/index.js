@@ -17,11 +17,11 @@ const ContentContainer = styled.div`
 `
 
 const headerLinks = [
-  {
-    render: Blog,
-    link: '/posts',
-    internal: true,
-  },
+  // {
+  //   render: Blog,
+  //   link: '/posts',
+  //   internal: true,
+  // },
   {
     render: Twitter,
     link: 'https://twitter.com/callummr',
