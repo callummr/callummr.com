@@ -50,15 +50,15 @@ const PlainA = styled.a`
   text-decoration: none;
 `
 
-export default ({ title, icons = [] }) => (
+export default ({ title, links = [] }) => (
   <Outer>
     <Inner>
       <Title>
         <PlainLink to="/">{title}</PlainLink>
       </Title>
       <Icons>
-        {icons.map(({ render, link, internal = false }) => (
-          <IconItem>
+        {links.map(({ render, link, internal = false }) => (
+          <IconItem key={link}>
             {internal ? (
               <Link to={link}>{render()}</Link>
             ) : (

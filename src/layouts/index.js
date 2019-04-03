@@ -16,7 +16,7 @@ const ContentContainer = styled.div`
   padding: 1rem 1.0875rem 1.45rem;
 `
 
-const icons = [
+const headerLinks = [
   {
     render: Blog,
     link: '/posts',
@@ -51,7 +51,7 @@ const TemplateWrapper = ({ children }) => (
       />
       <link rel="shortcut icon" href="/favicons/favicon.ico" />
     </Helmet>
-    <Header title="Callum M-R" icons={icons} />
+    <Header title="Callum M-R" links={headerLinks} />
     <ContentContainer>{children()}</ContentContainer>
   </div>
 )
