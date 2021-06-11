@@ -6,11 +6,13 @@ import Code from '../components/Code'
 const aboutMe = `
 const me = {
   name: 'Callum Mellor-Reed', 
-  type: engineers.javascript, 
-  skills: [
+  type: engineers.frontEnd, 
+  likes: [
+    'javascript',
+    'typescript',
     'react',
-    'redux',
-    'javascript'
+    'graphql',
+    'design systems',
   ],
   dependencies: [ '☕️', '🎮', '🍕' ],
   contact: {
