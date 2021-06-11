@@ -12,9 +12,9 @@ const me = {
     'typescript',
     'react',
     'graphql',
-    'design systems',
+    'design systems'
   ],
-  dependencies: [ '☕️', '🎮', '🍕' ],
+  dependencies: [ '☕️', '☀️', '🎮', '🍕' ],
   contact: {
     email: 'me@callummr.com',
     twitter: '@callummr'
