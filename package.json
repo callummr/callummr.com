@@ -19,7 +19,7 @@
     "gatsby-remark-images": "^1.5.37",
     "gatsby-remark-prismjs": "^1.2.12",
     "gatsby-source-filesystem": "^1.5.11",
-    "gatsby-transformer-remark": "^1.7.28",
+    "gatsby-transformer-remark": "^5.25.1",
     "react-helmet": "^5.2.0",
     "react-syntax-highlighter": "^6.1.2",
     "styled-components": "^2.4.0"
