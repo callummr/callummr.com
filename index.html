@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>Callum M-R</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <meta name="theme-color" content="#fdf6e3" />
+    <style id="third-party">
+        html {
+            font-family: sans-serif;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%
+        }
+
+        body {
+            margin: 0;
+            background: #fdf6e3
+        }
+
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        main,
+        menu,
+        nav,
+        section,
+        summary {
+            display: block
+        }
+
+        audio,
+        canvas,
+        progress,
+        video {
+            display: inline-block
+        }
+
+        audio:not([controls]) {
+            display: none;
+            height: 0
+        }
+
+        progress {
+            vertical-align: baseline
+        }
+
+        [hidden],
+        template {
+            display: none
+        }
+
+        a {
+            color: #268bd2;
+            background-color: transparent;
+            -webkit-text-decoration-skip: objects
+        }
+
+        a:active,
+        a:hover {
+            outline-width: 0
+        }
+
+        a:visited {
+            color: #6c71c4
+        }
+
+        abbr[title] {
+            border-bottom: none;
+            text-decoration: underline;
+            text-decoration: underline dotted
+        }
+
+        b,
+        strong {
+            font-weight: inherit;
+            font-weight: bolder
+        }
+
+        dfn {
+            font-style: italic
+        }
+
+        h1 {
+            font-size: 2em;
+            margin: .67em 0
+        }
+
+        mark {
+            background-color: #ff0;
+            color: #000
+        }
+
+        small {
+            font-size: 80%
+        }
+
+        sub,
+        sup {
+            font-size: 75%;
+            line-height: 0;
+            position: relative;
+            vertical-align: baseline
+        }
+
+        sub {
+            bottom: -.25em
+        }
+
+        sup {
+            top: -.5em
+        }
+
+        img {
+            border-style: none
+        }
+
+        svg:not(:root) {
+            overflow: hidden
+        }
+
+        code,
+        kbd,
+        pre,
+        samp {
+            font-family: monospace, monospace;
+            font-size: 1em
+        }
+
+        figure {
+            margin: 1em 40px
+        }
+
+        hr {
+            box-sizing: content-box;
+            height: 0;
+            overflow: visible
+        }
+
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            font: inherit;
+            margin: 0
+        }
+
+        optgroup {
+            font-weight: 700
+        }
+
+        button,
+        input {
+            overflow: visible
+        }
+
+        button,
+        select {
+            text-transform: none
+        }
+
+        [type=reset],
+        [type=submit],
+        button,
+        html [type=button] {
+            -webkit-appearance: button
+        }
+
+        [type=button]::-moz-focus-inner,
+        [type=reset]::-moz-focus-inner,
+        [type=submit]::-moz-focus-inner,
+        button::-moz-focus-inner {
+            border-style: none;
+            padding: 0
+        }
+
+        [type=button]:-moz-focusring,
+        [type=reset]:-moz-focusring,
+        [type=submit]:-moz-focusring,
+        button:-moz-focusring {
+            outline: 1px dotted ButtonText
+        }
+
+        fieldset {
+            border: 1px solid silver;
+            margin: 0 2px;
+            padding: .35em .625em .75em
+        }
+
+        legend {
+            box-sizing: border-box;
+            color: inherit;
+            display: table;
+            max-width: 100%;
+            padding: 0;
+            white-space: normal
+        }
+
+        textarea {
+            overflow: auto
+        }
+
+        [type=checkbox],
+        [type=radio] {
+            box-sizing: border-box;
+            padding: 0
+        }
+
+        [type=number]::-webkit-inner-spin-button,
+        [type=number]::-webkit-outer-spin-button {
+            height: auto
+        }
+
+        [type=search] {
+            -webkit-appearance: textfield;
+            outline-offset: -2px
+        }
+
+        [type=search]::-webkit-search-cancel-button,
+        [type=search]::-webkit-search-decoration {
+            -webkit-appearance: none
+        }
+
+        ::-webkit-input-placeholder {
+            color: inherit;
+            opacity: .54
+        }
+
+        ::-webkit-file-upload-button {
+            -webkit-appearance: button;
+            font: inherit
+        }
+
+        html {
+            font: 112.5%/1.45em georgia, serif;
+            box-sizing: border-box;
+            overflow-y: scroll
+        }
+
+        *,
+        :after,
+        :before {
+            box-sizing: inherit
+        }
+
+        body {
+            color: #657b83;
+            font-family: sans-serif;
+            font-weight: 400;
+            word-wrap: break-word;
+            -webkit-font-kerning: normal;
+            font-kerning: normal;
+            -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+            -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+            font-feature-settings: "kern", "liga", "clig", "calt", "kern"
+        }
+
+        img {
+            max-width: 100%;
+            margin: 0 0 1.45rem;
+            padding: 0
+        }
+
+        h1 {
+            font-size: 2.25rem
+        }
+
+        h1,
+        h2 {
+            margin: 0 0 1.45rem;
+            padding: 0;
+            color: inherit;
+            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+            font-weight: 700;
+            text-rendering: optimizeLegibility;
+            line-height: 1.1
+        }
+
+        h2 {
+            font-size: 1.62671rem
+        }
+
+        h3 {
+            font-size: 1.38316rem
+        }
+
+        h3,
+        h4 {
+            margin: 0 0 1.45rem;
+            padding: 0;
+            color: inherit;
+            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+            font-weight: 700;
+            text-rendering: optimizeLegibility;
+            line-height: 1.1
+        }
+
+        h4 {
+            font-size: 1rem
+        }
+
+        h5 {
+            font-size: .85028rem
+        }
+
+        h5,
+        h6 {
+            margin: 0 0 1.45rem;
+            padding: 0;
+            color: inherit;
+            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+            font-weight: 700;
+            text-rendering: optimizeLegibility;
+            line-height: 1.1
+        }
+
+        h6 {
+            font-size: .78405rem
+        }
+
+        hgroup {
+            margin: 0 0 1.45rem;
+            padding: 0
+        }
+
+        ol,
+        ul {
+            margin: 0 0 1.45rem 1.45rem;
+            padding: 0;
+            list-style-position: outside;
+            list-style-image: none
+        }
+
+        dd,
+        dl,
+        figure,
+        p {
+            margin: 0 0 1.45rem;
+            padding: 0
+        }
+
+        pre {
+            padding: 0;
+            font-size: .85rem;
+            line-height: 1.42;
+            background: rgba(0, 0, 0, .04);
+            border-radius: 3px;
+            overflow: auto;
+            word-wrap: normal;
+            padding: 1.45rem
+        }
+
+        pre,
+        table {
+            margin: 0 0 1.45rem
+        }
+
+        table {
+            padding: 0;
+            font-size: 1rem;
+            line-height: 1.45rem;
+            border-collapse: collapse;
+            width: 100%
+        }
+
+        fieldset {
+            margin: 0 0 1.45rem;
+            padding: 0
+        }
+
+        blockquote {
+            margin: 0 1.45rem 1.45rem;
+            padding: 0
+        }
+
+        form,
+        iframe,
+        noscript {
+            margin: 0 0 1.45rem;
+            padding: 0
+        }
+
+        hr {
+            margin: 0 0 calc(1.45rem - 1px);
+            padding: 0;
+            background: rgba(0, 0, 0, .2);
+            border: none;
+            height: 1px
+        }
+
+        address {
+            margin: 0 0 1.45rem;
+            padding: 0
+        }
+
+        b,
+        dt,
+        strong,
+        th {
+            font-weight: 700
+        }
+
+        li {
+            margin-bottom: .725rem
+        }
+
+        ol li,
+        ul li {
+            padding-left: 0
+        }
+
+        li>ol,
+        li>ul {
+            margin-left: 1.45rem;
+            margin-bottom: .725rem;
+            margin-top: .725rem
+        }
+
+        blockquote :last-child,
+        li :last-child,
+        p :last-child {
+            margin-bottom: 0
+        }
+
+        li>p {
+            margin-bottom: .725rem
+        }
+
+        code,
+        kbd,
+        samp {
+            font-size: .85rem;
+            line-height: 1.45rem
+        }
+
+        abbr,
+        abbr[title],
+        acronym {
+            border-bottom: 1px dotted rgba(0, 0, 0, .5);
+            cursor: help
+        }
+
+        abbr[title] {
+            text-decoration: none
+        }
+
+        td,
+        th,
+        thead {
+            text-align: left
+        }
+
+        td,
+        th {
+            border-bottom: 1px solid rgba(0, 0, 0, .12);
+            font-feature-settings: "tnum";
+            -moz-font-feature-settings: "tnum";
+            -ms-font-feature-settings: "tnum";
+            -webkit-font-feature-settings: "tnum";
+            padding: .725rem .96667rem calc(.725rem - 1px)
+        }
+
+        td:first-child,
+        th:first-child {
+            padding-left: 0
+        }
+
+        td:last-child,
+        th:last-child {
+            padding-right: 0
+        }
+
+        code,
+        tt {
+            background-color: rgba(0, 0, 0, .04);
+            border-radius: 3px;
+            font-family: SFMono-Regular, Consolas, Roboto Mono, Droid Sans Mono, Liberation Mono, Menlo, Courier, monospace;
+            padding: 0;
+            padding-top: .2em;
+            padding-bottom: .2em
+        }
+
+        pre code {
+            background: none;
+            line-height: 1.42
+        }
+
+        code:after,
+        code:before,
+        tt:after,
+        tt:before {
+            letter-spacing: -.2em;
+            content: " "
+        }
+
+        pre code:after,
+        pre code:before,
+        pre tt:after,
+        pre tt:before {
+            content: ""
+        }
+
+        @media only screen and (max-width: 480px) {
+            html {
+                font-size: 100%
+            }
+        }
+
+        code[class*=language-],
+        pre[class*=language-] {
+            color: #657b83;
+            font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
+            text-align: left;
+            white-space: pre;
+            word-spacing: normal;
+            word-break: normal;
+            word-wrap: normal;
+            line-height: 1.5;
+            -moz-tab-size: 4;
+            -o-tab-size: 4;
+            tab-size: 4;
+            -webkit-hyphens: none;
+            -ms-hyphens: none;
+            hyphens: none
+        }
+
+        code[class*=language-]::-moz-selection,
+        code[class*=language-] ::-moz-selection,
+        pre[class*=language-]::-moz-selection,
+        pre[class*=language-] ::-moz-selection {
+            background: #073642
+        }
+
+        code[class*=language-]::selection,
+        code[class*=language-] ::selection,
+        pre[class*=language-]::selection,
+        pre[class*=language-] ::selection {
+            background: #073642
+        }
+
+        pre[class*=language-] {
+            padding: 1em;
+            margin: .5em 0;
+            overflow: auto;
+            border-radius: .3em
+        }
+
+        :not(pre)>code[class*=language-],
+        pre[class*=language-] {
+            background-color: #fdf6e3
+        }
+
+        :not(pre)>code[class*=language-] {
+            padding: .1em;
+            border-radius: .3em
+        }
+
+        .token.cdata,
+        .token.comment,
+        .token.doctype,
+        .token.prolog {
+            color: #93a1a1
+        }
+
+        .token.punctuation {
+            color: #586e75
+        }
+
+        .namespace {
+            opacity: .7
+        }
+
+        .token.boolean,
+        .token.constant,
+        .token.deleted,
+        .token.number,
+        .token.property,
+        .token.symbol,
+        .token.tag {
+            color: #268bd2
+        }
+
+        .token.attr-name,
+        .token.builtin,
+        .token.char,
+        .token.inserted,
+        .token.selector,
+        .token.string,
+        .token.url {
+            color: #2aa198
+        }
+
+        .token.entity {
+            color: #657b83;
+            background: #eee8d5
+        }
+
+        .token.atrule,
+        .token.attr-value,
+        .token.keyword {
+            color: #859900
+        }
+
+        .token.function {
+            color: #b58900
+        }
+
+        .token.important,
+        .token.regex,
+        .token.variable {
+            color: #cb4b16
+        }
+
+        .token.bold,
+        .token.important {
+            font-weight: 700
+        }
+
+        .token.italic {
+            font-style: italic
+        }
+
+        .token.entity {
+            cursor: help
+        }
+    </style>
+    <style id="custom">
+        .header {
+            background: #ff5e99;
+            text-transform: uppercase;
+        }
+
+        .header-content {
+            margin: 0 auto;
+            max-width: 960px;
+            padding: 1.45rem 1.0875rem;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -webkit-flex-wrap: wrap-reverse;
+            -ms-flex-wrap: wrap-reverse;
+            flex-wrap: wrap-reverse;
+        }
+
+        .header-heading {
+            margin: 0;
+        }
+
+        .header-links {
+            list-style: none;
+            margin: 0;
+        }
+
+        .header-link-item {
+            display: inline-block;
+            margin: 0 0 0 10px;
+            width: 44px;
+            height: 44px;
+            color: white;
+        }
+
+        .header-link-item svg {
+            fill: #fff;
+        }
+
+        .header-heading-link {
+            color: white;
+            text-decoration: none;
+        }
+
+        .header-heading-link:visited {
+            color: white;
+        }
+
+        .header-link-item-link {
+            color: white;
+            text-decoration: none;
+        }
+
+        .container {
+            margin: 0 auto;
+            max-width: 960px;
+            padding: 1rem 1.0875rem 1.45rem;
+        }
+
+        .code-container {
+            color: #657b83;
+            font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+            text-align: left;
+            white-space: pre;
+            word-spacing: normal;
+            word-break: normal;
+            word-wrap: normal;
+            line-height: 1.5;
+            -moz-tab-size: 4;
+            -o-tab-size: 4;
+            tab-size: 4;
+            -webkit-hyphens: none;
+            -moz-hyphens: none;
+            -ms-hyphens: none;
+            hyphens: none;
+            padding: 1em;
+            margin: .5em 0;
+            overflow: auto;
+            border-radius: 0.3em;
+            background-color: #fdf6e3;
+        }
+
+        .code {
+            color: #657b83;
+            font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+            text-align: left;
+            white-space: pre-line;
+            word-spacing: normal;
+            word-break: normal;
+            word-wrap: normal;
+            line-height: 1.5;
+            -moz-tab-size: 4;
+            -o-tab-size: 4;
+            tab-size: 4;
+            -webkit-hyphens: none;
+            -moz-hyphens: none;
+            -ms-hyphens: none;
+            hyphens: none;
+        }
+
+        .code-line {
+            white-space: pre;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-content">
+            <h1 class="header-heading">
+                <a class="header-heading-link" href="/">Callum M-R</a>
+            </h1>
+            <ul class="header-links">
+                <li class="header-link-item">
+                    <a class="header-link-item-link" href="https://twitter.com/callummr" target="_blank">
+                        <svg aria-label="Twitter icon" role="img" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <title>Callum's Twitter</title>
+                            <path
+                                d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z">
+                            </path>
+                        </svg>
+                    </a>
+                </li>
+                <li class="header-link-item">
+                    <a class="header-link-item-link" href="https://github.com/callummr" target="_blank">
+                        <svg aria-label="GitHub icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <title>Callum's GitHub</title>
+                            <path
+                                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12">
+                            </path>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <pre class="code-container">
+            <code class="code">
+                <span class="code-line"><span style="color:#859900">const</span> me <span>=</span> <span style="color:#586e75">{</span></span>
+                <span class="code-line">  name<span style="color:#586e75">:</span> <span style="color:#2aa198">'Callum Mellor-Reed'</span><span style="color:#586e75">,</span> </span>
+                <span class="code-line">  type<span style="color:#586e75">:</span> engineers<span style="color:#586e75">.</span>frontEnd<span style="color:#586e75">,</span> </span>
+                <span class="code-line">  likes<span style="color:#586e75">:</span> <span style="color:#586e75">[</span></span>
+                <span class="code-line">    <span style="color:#2aa198">'javascript'</span><span style="color:#586e75">,</span></span>
+                <span class="code-line">    <span style="color:#2aa198">'typescript'</span><span style="color:#586e75">,</span></span>
+                <span class="code-line">    <span style="color:#2aa198">'react'</span><span style="color:#586e75">,</span></span>
+                <span class="code-line">    <span style="color:#2aa198">'graphql'</span><span style="color:#586e75">,</span></span>
+                <span class="code-line">    <span style="color:#2aa198">'design systems'</span></span>
+                <span class="code-line">  <span style="color:#586e75">]</span><span style="color:#586e75">,</span></span>
+                <span class="code-line">  dependencies<span style="color:#586e75">:</span> <span style="color:#586e75">[</span> <span style="color:#2aa198">'☕️'</span><span style="color:#586e75">,</span> <span style="color:#2aa198">'☀️'</span><span style="color:#586e75">,</span> <span style="color:#2aa198">'🎮'</span><span style="color:#586e75">,</span> <span style="color:#2aa198">'🍕'</span> <span style="color:#586e75">]</span><span style="color:#586e75">,</span></span>
+                <span class="code-line">  contact<span style="color:#586e75">:</span> <span style="color:#586e75">{</span></span>
+                <span class="code-line">    email<span style="color:#586e75">:</span> <span style="color:#2aa198">'me@callummr.com'</span><span style="color:#586e75">,</span></span>
+                <span class="code-line">    twitter<span style="color:#586e75">:</span> <span style="color:#2aa198">'@callummr'</span></span>
+                <span class="code-line">  <span style="color:#586e75">}</span></span>
+                <span class="code-line"><span style="color:#586e75">}</span><span style="color:#586e75">;</span></span>
+            </code>
+        </pre>
+    </div>
+</body>
+
+</html>

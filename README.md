@@ -1,13 +1,13 @@
-# gatsby-starter-default
-The default Gatsby starter
+# callummr.com
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+### Dependencies
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+a text editor. it's an html file it's not that deep
 
-## Deploy
+### Developing
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+edit the file
+
+### Deploying
+
+copy the file somewhere
